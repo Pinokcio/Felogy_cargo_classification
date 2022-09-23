@@ -17,7 +17,7 @@
     3. numeric 데이터는 그대로 사용
     4. categorical data 중 적출국가코드, 원산지국가코드는 one hot encoding
     5. 신고인부호, 수입자, 해외거래처부호는 우범여부 빈도에 따라 평균보다 많이 큰 값은 0.4 나머지는 0.2 부여
-    6. HS10부호코드는 1~2, 3~4, 5~6, 7~10으로 잘라 각각 류, 호, 소호, 세부품목으로 나누어 다름
+    6. HS10부호코드는 1-2, 3-4, 5-6, 7-10으로 잘라 각각 류, 호, 소호, 세부품목으로 나누어 다름
         1. 이 또한 one hot으로 각각의 정보를 살리면 더욱 정확하겠지만 decision tree에서 one hot encoding은 그렇게 좋은 방법이 아니므로 이들은 부호 그대로 사용함
 
 [Felogy_cargo_classification/felony_cargo_eda.ipynb at main · Pinokcio/Felogy_cargo_classification](https://github.com/Pinokcio/Felogy_cargo_classification/blob/main/felony_cargo_eda.ipynb)
