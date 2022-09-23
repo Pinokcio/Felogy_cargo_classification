@@ -24,11 +24,11 @@
 
 3. modeling
 
-1. 전체적인 특징을 살펴보았을 때 고려해야할 사안이 꽤 있었고, categorical data가 얽혀있는 모습이었기에 decision tree model이 적합하다고 판단 (dt, rf, et)
-2. 데이터를 shuffle하고 8:2비율로 train/valid set을 나눔
-3. robust하고 정확성 높은 모델을 위해 여러 모델을 ensemble함
-    1. voting과 stacking을 고려하였고, 대회 특성상 실제 데이터가 아닌 생성한 데이터이기 때문에 이상치가 적을 것이라 판단하고 stacking을 사용함.
-4. 핵심적발 또한 우범여부와 같은 방법을 통해 모델링함
+    1. 전체적인 특징을 살펴보았을 때 고려해야할 사안이 꽤 있었고, categorical data가 얽혀있는 모습이었기에 decision tree model이 적합하다고 판단 (dt, rf, et)
+    2. 데이터를 shuffle하고 8:2비율로 train/valid set을 나눔
+    3. robust하고 정확성 높은 모델을 위해 여러 모델을 ensemble함
+        1. voting과 stacking을 고려하였고, 대회 특성상 실제 데이터가 아닌 생성한 데이터이기 때문에 이상치가 적을 것이라 판단하고 stacking을 사용함.
+    4. 핵심적발 또한 우범여부와 같은 방법을 통해 모델링함
 
 [Felogy_cargo_classification/felony_cargo_최종제출본.ipynb at main · Pinokcio/Felogy_cargo_classification](https://github.com/Pinokcio/Felogy_cargo_classification/blob/main/felony_cargo_%EC%B5%9C%EC%A2%85%EC%A0%9C%EC%B6%9C%EB%B3%B8.ipynb)
 
